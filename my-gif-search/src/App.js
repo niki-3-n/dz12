@@ -12,7 +12,7 @@ export default function App() {
     const [loading, setLoading] = useState(false); // Статус загрузки
     const [message, setMessage] = useState('Введите запрос, чтобы начать.'); // Сообщение для пользователя
 
-    // --- ОСНОВНАЯ ФУНКЦИЯ ДЛЯ HTTP-ЗАПРОСА ---'
+    // --- ОСНОВНАЯ ФУНКЦИЯ ДЛЯ HTTP-ЗАПРОСА ---
     const searchGifs = async () => {
         // Если поле ввода пустое, ничего не делаем
         if (!query) {
